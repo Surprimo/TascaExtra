@@ -22,11 +22,7 @@ public class CalculMental {
             String operator = operations[i]; // Obtiene el operador siguiente (+ o -)
             int operand = Integer.parseInt(operations[i + 1]); // Obtiene el siguiente operando
 
-            if (operator.equals("+")) {
-                partialResult += operand;
-            } else if (operator.equals("-")) {
-                partialResult -= operand;
-            }
+            partialResult = operator.equals("+") ? partialResult + operand : partialResult - operand;
 
             results.add(partialResult); // Agrega el resultado parcial a la lista de resultados
         }
