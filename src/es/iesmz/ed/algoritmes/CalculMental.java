@@ -7,10 +7,18 @@ import java.util.List;
 public class CalculMental {
     private String sequence;
 
+    /**
+     * Constructor de la clase CalculMental.
+     * @param sequence La secuencia de operaciones matemáticas.
+     */
     public CalculMental(String sequence) {
         this.sequence = sequence;
     }
 
+    /**
+     * Realiza los cálculos mentales en base a la secuencia de operaciones.
+     * @return Una lista de enteros que representa los resultados parciales de las operaciones.
+     */
     public List<Integer> calcula() {
         List<Integer> results = new ArrayList<>();
 
