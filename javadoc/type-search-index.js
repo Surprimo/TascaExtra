@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"es.iesmz.ed.algoritmes","l":"CalculMental"},{"p":"es.iesmz.ed.algoritmes","l":"CalculMentalTest"},{"p":"<Unnamed>","l":"Main"},{"p":"es.iesmz.ed.algoritmes","l":"Sudoku"},{"p":"es.iesmz.ed.algoritmes","l":"SudokuTest"}];updateSearchResults();
