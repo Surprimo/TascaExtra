@@ -94,4 +94,13 @@ public class SudokuTest {
         Sudoku sudoku = new Sudoku(sudokuColumnaIncorrecta);
         assertFalse(sudoku.esCorrecta());
     }
+
+    /**
+     * Prueba unitaria para verificar un sudoku con una región incorrecta.
+     */
+    @Test
+    public void testSudokuRegioIncorrecta() {
+        Sudoku sudoku = new Sudoku(sudokuRegioIncorrecta);
+        assertFalse(sudoku.esCorrecta());
+    }
 }
