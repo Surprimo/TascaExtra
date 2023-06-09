@@ -95,6 +95,7 @@ public class SudokuTest {
         assertFalse(sudoku.esCorrecta());
     }
 
+
     /**
      * Prueba unitaria para verificar un sudoku con una región incorrecta.
      */
