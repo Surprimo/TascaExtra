@@ -85,4 +85,13 @@ public class SudokuTest {
         Sudoku sudoku = new Sudoku(sudokuFilaIncorrecta);
         assertFalse(sudoku.esCorrecta());
     }
+
+    /**
+     * Prueba unitaria para verificar un sudoku con una columna incorrecta.
+     */
+    @Test
+    public void testSudokuColumnaIncorrecta() {
+        Sudoku sudoku = new Sudoku(sudokuColumnaIncorrecta);
+        assertFalse(sudoku.esCorrecta());
+    }
 }
